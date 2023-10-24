@@ -3,7 +3,6 @@ package org.example;
 import workers.Employee;
 import workers.Manager;
 
-import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,8 +66,8 @@ public class Main {
         manager.setExperience(50);
         manager.setEducation("Специальновредительское");
         manager.setSalaryLevel(100);
-        manager.setDay1(01);
-        manager.setMonth1(01);
+        manager.setDay1(1);
+        manager.setMonth1(1);
         manager.setYear1(1970);
 
         Employee[] employees = new Employee[3];
